@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UserOrderManager\UserOrderManager.csproj">
+      <Project>{b3f62f96-2b99-4442-8d7b-30795d436bd1}</Project>
+      <Name>UserOrderManager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

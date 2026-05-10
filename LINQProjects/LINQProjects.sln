@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQProjects", "LINQProjects\LINQProjects.csproj", "{81EBF70C-A818-440F-A8AC-D3F92C100958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserOrderManager", "UserOrderManager\UserOrderManager.csproj", "{B3F62F96-2B99-4442-8D7B-30795D436BD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{81EBF70C-A818-440F-A8AC-D3F92C100958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81EBF70C-A818-440F-A8AC-D3F92C100958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81EBF70C-A818-440F-A8AC-D3F92C100958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F62F96-2B99-4442-8D7B-30795D436BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F62F96-2B99-4442-8D7B-30795D436BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F62F96-2B99-4442-8D7B-30795D436BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F62F96-2B99-4442-8D7B-30795D436BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
