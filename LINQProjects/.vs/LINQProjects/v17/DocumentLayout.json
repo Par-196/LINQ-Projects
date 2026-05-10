@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAF363E3-8101-4DB9-8286-35582DF07946}|UserOrderManager\\UserOrderManager.csproj|d:\\program\\microsoft visual studio\\github\\linq-projects\\linqprojects\\userordermanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAF363E3-8101-4DB9-8286-35582DF07946}|UserOrderManager\\UserOrderManager.csproj|solutionrelative:userordermanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81EBF70C-A818-440F-A8AC-D3F92C100958}|LINQProjects\\LINQProjects.csproj|d:\\program\\microsoft visual studio\\github\\linq-projects\\linqprojects\\linqprojects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EBF70C-A818-440F-A8AC-D3F92C100958}|LINQProjects\\LINQProjects.csproj|solutionrelative:linqprojects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Program.cs",
-              "RelativeDocumentMoniker": "UserOrderManager\\Program.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Program.cs",
-              "RelativeToolTip": "UserOrderManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAtwAsAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\LINQProjects\\Program.cs",
+              "RelativeDocumentMoniker": "LINQProjects\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\LINQProjects\\Program.cs",
+              "RelativeToolTip": "LINQProjects\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:28:41.491Z",
+              "WhenOpened": "2026-05-10T02:25:14.02Z",
               "EditorCaption": ""
             }
           ]
