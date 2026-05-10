@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{81EBF70C-A818-440F-A8AC-D3F92C100958}</ProjectGuid>
+    <ProjectGuid>{FAF363E3-8101-4DB9-8286-35582DF07946}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LINQProjects</RootNamespace>
-    <AssemblyName>LINQProjects</AssemblyName>
+    <RootNamespace>UserOrderManager</RootNamespace>
+    <AssemblyName>UserOrderManager</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
