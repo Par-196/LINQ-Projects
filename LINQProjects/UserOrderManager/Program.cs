@@ -37,7 +37,7 @@ namespace UserOrderManager
                 new User { Id = 16, Name = "Harper", Age = 12 },
                 new User { Id = 17, Name = "Henry", Age = 32 },
                 new User { Id = 18, Name = "Evelyn", Age = 20 },
-                new User { Id = 19, Name = "Sebastian", Age = 41 },
+                new User { Id = 19, Name = "Sebastian", Age = 18 },
                 new User { Id = 20, Name = "Abigail", Age = 9 }
             };
             List<Order> ordersList = new()
@@ -323,23 +323,42 @@ namespace UserOrderManager
                         break;
                     case MainMenu.FirstUserOlderThan18:
                         {
-                            var result = usersList.OrderBy(x => x.Age).SkipWhile(x => x.Age == 18);
-                            foreach (var item in result)
-                            {
-                                Console.WriteLine(item);
-                            }
+                            var result = usersList.FirstOrDefault(x => x.Age == 18);
+                            Console.WriteLine(result);
                         }
                         break;
                     case MainMenu.UserWithId1:
                         { 
-                            
+                            var result = usersList.Single(x => x.Id == 1);
+                            Console.WriteLine(result);
                         }
                         break;
                     case MainMenu.ThirdElementInTheList:
+                        {
+                            var result = usersList.ElementAtOrDefault(2);
+                            Console.WriteLine(result);
+                        }
                         break;
                     case MainMenu.LastUserOlderThan18:
+                        {
+                            var result = usersList.LastOrDefault(x => x.Age == 18);
+                            Console.WriteLine(result);
+                        }
                         break;
                     case MainMenu.BonusTop3UsersByTotalOrderAmount:
+                        {
+                            var result = usersList.Select(user => new
+                            {
+                                User = user,
+                                ProductName = ordersList.Where(order => order.UserId == user.Id).Select(order => order.ProductName),
+                                TotalPrice = ordersList.Where(order => order.UserId == user.Id).Sum(order => order.Price)
+                            }).OrderByDescending(x => x.TotalPrice).Take(3);
+
+                            foreach (var item in result)
+                            {
+                                Console.WriteLine($"Name: {item.User.Name,-12} | ProductName: {string.Join(", ", item.ProductName),-30} | Price: {item.TotalPrice,-10:C}");
+                            }
+                        }
                         break;
                     case MainMenu.Exit:
                         { 

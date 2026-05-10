@@ -16,7 +16,7 @@ namespace UserOrderManager.Models
 
         public override string ToString()
         {
-            return $"| {Id,-3} | {UserId,-6} | {ProductName,-6} |{Price,-10:C} |";
+            return $"Id: {Id,-3} | UserId: {UserId,-6} | ProductName: {ProductName,-6} | Price: {Price,-10:C} |";
         }
     }
 }

@@ -7,12 +7,15 @@
       "RelativeMoniker": "D:0:0:{B3F62F96-2B99-4442-8D7B-30795D436BD1}|UserOrderManager\\UserOrderManager.csproj|solutionrelative:userordermanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F62F96-2B99-4442-8D7B-30795D436BD1}|UserOrderManager\\UserOrderManager.csproj|d:\\program\\microsoft visual studio\\github\\linq-projects\\linqprojects\\userordermanager\\enums\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3F62F96-2B99-4442-8D7B-30795D436BD1}|UserOrderManager\\UserOrderManager.csproj|solutionrelative:userordermanager\\enums\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yura\\AppData\\Local\\SourceServer\\4df003910f2487216e2ae8bacff4a9476804084bdab9d844a05ffb79570c8414\\LINQProjects\\UserOrderManager\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3F62F96-2B99-4442-8D7B-30795D436BD1}|UserOrderManager\\UserOrderManager.csproj|d:\\program\\microsoft visual studio\\github\\linq-projects\\linqprojects\\userordermanager\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3F62F96-2B99-4442-8D7B-30795D436BD1}|UserOrderManager\\UserOrderManager.csproj|solutionrelative:userordermanager\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F62F96-2B99-4442-8D7B-30795D436BD1}|UserOrderManager\\UserOrderManager.csproj|d:\\program\\microsoft visual studio\\github\\linq-projects\\linqprojects\\userordermanager\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F62F96-2B99-4442-8D7B-30795D436BD1}|UserOrderManager\\UserOrderManager.csproj|solutionrelative:userordermanager\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +33,25 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Program.cs",
               "RelativeDocumentMoniker": "UserOrderManager\\Program.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Program.cs*",
-              "RelativeToolTip": "UserOrderManager\\Program.cs*",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAEUBAABBAAAAAAAAAA==",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Program.cs",
+              "RelativeToolTip": "UserOrderManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T02:31:50.555Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserOrderManager\\Models\\User.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Models\\User.cs",
+              "RelativeToolTip": "UserOrderManager\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T14:30:56.221Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -46,7 +63,7 @@
               "RelativeDocumentMoniker": "UserOrderManager\\Models\\Order.cs",
               "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Models\\Order.cs",
               "RelativeToolTip": "UserOrderManager\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T02:29:20.889Z",
               "IsPinned": true,
@@ -55,15 +72,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Enums\\MainMenu.cs",
-              "RelativeDocumentMoniker": "UserOrderManager\\Enums\\MainMenu.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\LINQ-Projects\\LINQProjects\\UserOrderManager\\Enums\\MainMenu.cs",
-              "RelativeToolTip": "UserOrderManager\\Enums\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yura\\AppData\\Local\\SourceServer\\4df003910f2487216e2ae8bacff4a9476804084bdab9d844a05ffb79570c8414\\LINQProjects\\UserOrderManager\\Program.cs",
+              "ToolTip": "C:\\Users\\Yura\\AppData\\Local\\SourceServer\\4df003910f2487216e2ae8bacff4a9476804084bdab9d844a05ffb79570c8414\\LINQProjects\\UserOrderManager\\Program.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T03:06:27.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-10T15:05:34.782Z",
+              "EditorCaption": " [Read Only]"
             }
           ]
         },
